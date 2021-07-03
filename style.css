@@ -3,6 +3,7 @@
         padding: 0;
         font-family: 'Open Sans', sans-serif;
         line-height: 150%;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
                 
         }
         body{
@@ -28,7 +29,7 @@
        .secondbox .fb{color: #a3c962;}
          .firstbox h1{font-weight: 400;}
        .secondbox{padding-right: 40px;}
-
+/* front page */
         .navbar{
             min-height: 93vh;
             width: 100%;
@@ -42,12 +43,12 @@
             
         }
         .navbar li a{color: white;}
-        .navbar h1{ padding: 50px;
+        .navbar h1{ padding: 10px 50px ;
         font-weight: bolder;}
 
         .content ul {display: flex;
         justify-content: space-between;
-        padding: 50px;}
+        padding: 15px 50px ;}
 
         .content ul li{list-style-type: none;}
         .content ul  li a {text-decoration: none;
@@ -1005,4 +1006,27 @@ padding-top: 20px;}
     .f1, .tw1,.r1.v1{padding-right: 15px;}
 
 
-    
+    .dmob{display: none;}
+
+    /* mediaa
+    @media(max-width:998px) {
+       html{
+          font-size: 20px;
+      }
+      h2{font-size: 18px;}
+      h3{font-size: 15px;}
+      p{font-size: 13px;}
+      
+      .navbar .content{display: none;}
+
+      .dmob {display:block;
+      padding: 15px 20px;}     
+         
+  
+} */
+
+@media screen and (max-width:701px) {
+  .dmob {display:block;
+    padding: 15px 20px;}
+    .navbar .content{display: none;}
+ }
